@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hours">2</integer>
+    <integer name="minute">20</integer>
+    <integer name="second">21</integer>
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/loginlogo"
+        android:layout_marginBottom="22dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nonton"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#FFAB01"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slur"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembayaran"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_below="@id/image1"
+        android:layout_marginBottom="22dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="E-Money"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageselect1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/text2"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gojek"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/text2"/>
+
+    <TextView
+        android:id="@+id/textgopay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="GoPay"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageselect2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/imageselect1"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/rectangle2">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/linkaja"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/logo1"/>
+
+    <TextView
+        android:id="@+id/textLinkaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textgopay"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="LinkAja"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageselect3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/imageselect2"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/rectangle2">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spay"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/logo2"/>
+
+    <TextView
+        android:id="@+id/textspay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLinkaja"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="ShopeePay"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageselect4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/imageselect3"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/rectangle2">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ovo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/logo3"/>
+
+    <TextView
+        android:id="@+id/textovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textspay"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="OVO"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageselect4"
+        android:layout_margin="10dp"
+        android:text="Harga Total :"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageselect4"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="@string/harga"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/confirm_button1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="740dp"
+        android:backgroundTint="#FFAB01"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="10dp"
+        android:text="Bayar"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="172dp"
+        >
+
+        <RadioButton
+            android:id="@+id/simpleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="33dp"
+            android:buttonTint="#FFAB01"/>
+        <RadioButton
+            android:id="@+id/simpleRadioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="33dp"
+            android:buttonTint="#FFAB01"/>
+        <RadioButton
+            android:id="@+id/simpleRadioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="31dp"
+            android:buttonTint="#FFAB01"/>
+        <RadioButton
+            android:id="@+id/simpleRadioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFAB01"/>
+    </RadioGroup>
+</RelativeLayout>

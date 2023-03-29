@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "745526884996",
+    "project_id": "nontonslur-tubes",
+    "storage_bucket": "nontonslur-tubes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745526884996:android:70e2d229530f50f9db60d1",
+        "android_client_info": {
+          "package_name": "com.example.nontonslur.tubes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745526884996-vhirmd7or57odmbqp4018urke25a4urq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJydbLImM2NOKfBSoTqNxnGmyi-yCivT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745526884996-vhirmd7or57odmbqp4018urke25a4urq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
